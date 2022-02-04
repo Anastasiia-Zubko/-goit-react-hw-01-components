@@ -1,0 +1,29 @@
+.transactionHistory {
+  width: 600px;
+  margin: 10px auto;
+  box-shadow: 2px 2px 5px grey;
+  border-color: grey;
+}
+
+.thead {
+  background-color: rgb(5, 181, 235);
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.tbody {
+  color: grey;
+}
+
+.tr {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tr:nth-child(2n) {
+  background-color: rgba(245, 245, 245, 0.863);
+}
