@@ -1,71 +1,66 @@
 .profile {
-	border-radius: 2px;
-	box-shadow: 2px 2px 5px grey;
-	border: 1px solid lightgrey;
-	width: 300px;
-	margin: 20px auto;
-	overflow: hidden;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+  width: 300px;
+  margin: 20px auto;
+  overflow: hidden;
 }
 
 .description {
-	width: 100%;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .avatar {
-	width: 150px;
-	border-radius: 50%;
-	border: 1px solid lightgrey;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
 }
 
 .name {
-	font-size: 24px;
-	line-height: 30px;
-	font-weight: 700;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .tag {
-	font-size: 16px;
-	line-height: 20px;
-	color: grey;
+  font-size: 16px;
+  color: grey;
 }
 
 .location {
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: 500;
-	color: grey;
+  font-size: 16px;
+  color: grey;
 }
 
 .stats {
-	background-color: lightgrey;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	align-content: center;
+  background-color: rgb(231, 231, 231);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: center;
 }
 
 .stats > li {
-	list-style: none;
-	flex-basis: calc(100% / 3);
-	padding: 20px 10px;
-	text-align: center;
-	border: 1px solid grey;
+  list-style: none;
+  flex-basis: calc(100% / 3);
+  padding: 20px 10px;
+  text-align: center;
+  border: 1px solid lightgray;
 }
 
 .label {
-	display: block;
-	font-size: 16px;
-	line-height: 20px;
-	color: grey;
-	margin-bottom: 10px;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  color: grey;
+  margin-bottom: 10px;
 }
 
 .quantity {
-	display: block;
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: 700;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
 }
